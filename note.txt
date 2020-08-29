@@ -24,10 +24,6 @@ git checkout <branch> // tạo một branching hoặc là chuyển tới một b
 
 git chekout -b <branch> // tạo một branching và chuyển tới branching vừa tạo
 
-git reset --soft <id_commit> // Mở một commit và trạng thái làm việc là "staging area"
-
-git reset --mixed <id_commit> // Mở một commit và trạng thái làm việc là "working directory"
-
-git reset --hard <id_commit> // Mở và xóa một commit chỉ định
+git reset --soft <id_commit> // Mở một commit và chỉnh sửa commit
 
 git merge <branch> // gọp branch vào branch đang làm việc
