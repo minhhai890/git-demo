@@ -6,7 +6,11 @@ git add <file> or . all file // thêm một hoặc nhiều thay đổi vào "sta
 
 git commit -m "Description" // "git repository"
 
+gitk // một một cửa sổ làm việc với giao diện người dùng
+
 git log // xem danh sách commit
+
+git show // xem một commit mới nhất
 
 git show <id_commit> // xem nội dung commit nào đó
 
@@ -26,3 +30,4 @@ git reset --mixed <id_commit> // Mở một commit và trạng thái làm việc
 
 git reset --hard <id_commit> // Mở và xóa một commit chỉ định
 
+git merge <branch> // gọp branch vào branch đang làm việc
