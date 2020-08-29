@@ -16,3 +16,9 @@ git checkout -- <file> (ubuntu) | git restore <file> (windows) // khôi phục n
 
 git reset <file> (ubuntu) | git restore --staged <file> (windows) // khôi phục từ trạng thái "staging area" về trạng thái "working directory"
 
+git checkout <branch> // tạo một branching hoặc là chuyển tới một branching đã có
+
+git chekout -b <branch> // tạo một branching và chuyển tới branching vừa tạo
+
+
+
