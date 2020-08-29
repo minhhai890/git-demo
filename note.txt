@@ -20,5 +20,5 @@ git checkout <branch> // tạo một branching hoặc là chuyển tới một b
 
 git chekout -b <branch> // tạo một branching và chuyển tới branching vừa tạo
 
-
+git reset --soft <id_commit> // Mở một commit và chỉnh sửa commit
 
