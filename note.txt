@@ -27,3 +27,5 @@ git chekout -b <branch> // tạo một branching và chuyển tới branching v�
 git reset --soft <id_commit> // Mở một commit và chỉnh sửa commit
 
 git merge <branch> // gọp branch vào branch đang làm việc
+
+git revert <id_commit> // hoàn nguyên lại một commit nào đó
